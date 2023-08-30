@@ -28,7 +28,7 @@ const Left = () => {
   // console.log(categories);
   return (
     <div className="list-parent">
-      <div className="select-order">Select Your Order</div>
+      <div className="select-order">Categories</div>
       <div className="tabs-btn">
         <a className="button"onClick={()=>setActive([])}>All</a>
         {categorys}</div>
